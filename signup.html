@@ -1,4 +1,4 @@
-<!DOCTYPE html>
++<!DOCTYPE html>
 <html lang="zxx">
   <head>
     <meta charset="utf-8" />
@@ -19,7 +19,6 @@
       Copyright (c) 2018 - Softgear
       ========================================================================
     -->
-
     <title>Augury</title>
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
@@ -67,7 +66,7 @@
       <nav class="navbar header-nav header-nav-style-2 navbar-expand-lg">
         <div class="container container-large">
 
-          <a class="navbar-brand" href="index.html">
+          <a class="navbar-brand" href="#">
               <img class="dark-logo" src="static/img/logo.png" title="" alt="">
               <img class="light-logo" src="static/img/logo.png" title="" alt="">
           </a>
@@ -76,7 +75,7 @@
 
       </nav>
     </header>
-  <main>
+    <main>
 
     <!-- Home -->
     <section id="home" class="home-banner-03 gray-bg">
@@ -86,146 +85,145 @@
       <div class="container">
         <div class="row full-screen p-80px-tb sm-p-30px-b">
           <form action="scripts/test.php" method="post" class="col" >
-            <form class="col">
-              <div class="form-row">
-                <div class="form-group col-md-4">
-                  <label for="firstName">First Name</label>
-                  <input type="text" class="form-control" id="firstName" placeholder="Enter your First Name">
-                </div>
-                <div class="form-group col-md-4">
-                  <label for="lastName">MI</label>
-                  <input type="text" class="form-control" id="midName" placeholder="Enter your Mid Name">
-                </div>
-                <div class="form-group col-md-4">
-                  <label for="lastName">Last Name</label>
-                  <input type="text" class="form-control" id="lastName" placeholder="Enter your Last name">
-                </div>
+            <div class="form-row">
+              <div class="form-group col-md-4">
+                <label for="firstName">First Name</label>
+                <input type="text" class="form-control" name="firstName" placeholder="Enter your First Name">
               </div>
-
-              <div class="form-row">
-                <div class="form-group col-md-4">
-                  <label for="firstName">Email</label>
-                  <input type="email" class="form-control" id="email" placeholder="Enter your Email">
-                </div>
-                <div class="form-group col-md-4">
-                  <label for="password">Password</label>
-                  <input type="password" class="form-control" id="password" placeholder="Enter your Password">
-                </div>
-                <div class="form-group col-md-4">
-                  <label for="confirmPassword">Confirm Password</label>
-                  <input type="password" class="form-control" id="confirmPassword" placeholder="Confirm Password">
-                </div>
+              <div class="form-group col-md-4">
+                <label for="lastName">MI</label>
+                <input type="text" class="form-control" name="midName" placeholder="Enter your Mid Name">
               </div>
-
-              <div class="form-row">
-                <div class="form-group col-md-6">
-                  <label for="address1">Address Line 1</label>
-                  <input type="text" class="form-control" id="address1" placeholder="Enter your Address line 1">
-                </div>
-                <div class="form-group col-md-6">
-                  <label for="address2">Address Line 2</label>
-                  <input type="text" class="form-control" id="address2" placeholder="Enter your Address line 2">
-                </div>
+              <div class="form-group col-md-4">
+                <label for="lastName">Last Name</label>
+                <input type="text" class="form-control" name="lastName" placeholder="Enter your Last name">
               </div>
+            </div>
 
-              <div class="form-row">
-                <div class="form-group col-md-4">
-                  <label for="firstName">City</label>
-                  <input type="text" class="form-control" id="text" placeholder="Enter your City">
-                </div>
-                <div class="form-group col-md-4">
-                  <label for="zipcode">Zipcode</label>
-                  <input type="text" class="form-control" id="text" placeholder="Enter your Zipcode">
-                </div>
-                <div class="form-group col-md-4">
-                  <label for="ZIPcode">State</label>
-                  <select class="form-control" id="STATEcode">
-                      <option value=""></option>
-                      <option value="AA">AA</option>
-                      <option value="AE">AE</option>
-                      <option value="AL">AL</option>
-                      <option value="AK">AK</option>
-                      <option value="AP">AP</option>
-                      <option value="AZ">AZ</option>
-                      <option value="AR">AR</option>
-                      <option value="CA">CA</option>
-                      <option value="CO">CO</option>
-                      <option value="CT">CT</option>
-                      <option value="DE">DE</option>
-                      <option value="DC">DC</option>
-                      <option value="FL">FL</option>
-                      <option value="GA">GA</option>
-                      <option value="HI">HI</option>
-                      <option value="ID">ID</option>
-                      <option value="IL">IL</option>
-                      <option value="IN">IN</option>
-                      <option value="IA">IA</option>
-                      <option value="KS">KS</option>
-                      <option value="KY">KY</option>
-                      <option value="LA">LA</option>
-                      <option value="ME">ME</option>
-                      <option value="MD">MD</option>
-                      <option value="MA">MA</option>
-                      <option value="MI">MI</option>
-                      <option value="MN">MN</option>
-                      <option value="MS">MS</option>
-                      <option value="MO">MO</option>
-                      <option value="MT">MT</option>
-                      <option value="NE">NE</option>
-                      <option value="NV">NV</option>
-                      <option value="NH">NH</option>
-                      <option value="NJ">NJ</option>
-                      <option value="NM">NM</option>
-                      <option value="NY">NY</option>
-                      <option value="NC">NC</option>
-                      <option value="ND">ND</option>
-                      <option value="OH">OH</option>
-                      <option value="OK">OK</option>
-                      <option value="OR">OR</option>
-                      <option value="PA">PA</option>
-                      <option value="PR">PR</option>
-                      <option value="RI">RI</option>
-                      <option value="SC">SC</option>
-                      <option value="SD">SD</option>
-                      <option value="TN">TN</option>
-                      <option value="TX">TX</option>
-                      <option value="UT">UT</option>
-                      <option value="VT">VT</option>
-                      <option value="VA">VA</option>
-                      <option value="WA">WA</option>
-                      <option value="WV">WV</option>
-                      <option value="WI">WI</option>
-                      <option value="WY">WY</option>
-                      </select>
-                </div>
+            <div class="form-row">
+              <div class="form-group col-md-4">
+                <label for="firstName">Email</label>
+                <input type="email" class="form-control" name="email" placeholder="Enter your Email">
               </div>
+              <div class="form-group col-md-4">
+                <label for="password">Password</label>
+                <input type="password" class="form-control" name="password" placeholder="Enter your Password">
+              </div>
+              <div class="form-group col-md-4">
+                <label for="confirmPassword">Confirm Password</label>
+                <input type="password" class="form-control" name="confirmPassword" placeholder="Confirm Password">
+              </div>
+            </div>
 
-              <div class="form-row">
-                  <div class="form-group col-md-6">
-                    <label for="phNo">Phone Number (mobile preffered)</label>
-                    <input type="tel" class="form-control" id="phNo" placeholder="xxx-xxx-xxxx">
-                  </div>
-                  <div class="form-group col-md-6">
-                    <label for="aboutUs">How did you hear about us?</label>
-                    <select class="form-control" id="aboutUs">
-                      <option value=""></option>
-                      <option value="Article / Blog Post">Article / Blog Post</option>
-                      <option value="Social Media">Social Media</option>
-                      <option value="Mail">Mail</option>
-                      <option value="Friend">Friend</option>
-                      <option value="Radio">Radio</option>
-                      <option value="Podcast">Podcast</option>
-                      <option value="TV">TV</option>
-                      <option value="Mint">Mint</option>
-                      <option value="Online Advertising">Online Advertising</option>
-                      <option value="uber">uber</option>
-                      <option value="Inflight Entertainment">Inflight Entertainment</option>
-                      <option value="Other">Other</option>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="address1">Address Line 1</label>
+                <input type="text" class="form-control" name="address1" placeholder="Enter your Address line 1">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="address2">Address Line 2</label>
+                <input type="text" class="form-control" name="address2" placeholder="Enter your Address line 2">
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group col-md-4">
+                <label for="firstName">City</label>
+                <input type="text" class="form-control" name="city" placeholder="Enter your City">
+              </div>
+              <div class="form-group col-md-4">
+                <label for="state">ZIPcode</label>
+                <input type="text" class="form-control" name="zip" placeholder="Enter your ZIPcode">
+              </div>
+              <div class="form-group col-md-4">
+                <label for="State">State</label>
+                <select class="form-control" name="state" placeholder="Select a STATEcode">
+                    <option value=""></option>
+                    <option value="AA">AA</option>
+                    <option value="AE">AE</option>
+                    <option value="AL">AL</option>
+                    <option value="AK">AK</option>
+                    <option value="AP">AP</option>
+                    <option value="AZ">AZ</option>
+                    <option value="AR">AR</option>
+                    <option value="CA">CA</option>
+                    <option value="CO">CO</option>
+                    <option value="CT">CT</option>
+                    <option value="DE">DE</option>
+                    <option value="DC">DC</option>
+                    <option value="FL">FL</option>
+                    <option value="GA">GA</option>
+                    <option value="HI">HI</option>
+                    <option value="ID">ID</option>
+                    <option value="IL">IL</option>
+                    <option value="IN">IN</option>
+                    <option value="IA">IA</option>
+                    <option value="KS">KS</option>
+                    <option value="KY">KY</option>
+                    <option value="LA">LA</option>
+                    <option value="ME">ME</option>
+                    <option value="MD">MD</option>
+                    <option value="MA">MA</option>
+                    <option value="MI">MI</option>
+                    <option value="MN">MN</option>
+                    <option value="MS">MS</option>
+                    <option value="MO">MO</option>
+                    <option value="MT">MT</option>
+                    <option value="NE">NE</option>
+                    <option value="NV">NV</option>
+                    <option value="NH">NH</option>
+                    <option value="NJ">NJ</option>
+                    <option value="NM">NM</option>
+                    <option value="NY">NY</option>
+                    <option value="NC">NC</option>
+                    <option value="ND">ND</option>
+                    <option value="OH">OH</option>
+                    <option value="OK">OK</option>
+                    <option value="OR">OR</option>
+                    <option value="PA">PA</option>
+                    <option value="PR">PR</option>
+                    <option value="RI">RI</option>
+                    <option value="SC">SC</option>
+                    <option value="SD">SD</option>
+                    <option value="TN">TN</option>
+                    <option value="TX">TX</option>
+                    <option value="UT">UT</option>
+                    <option value="VT">VT</option>
+                    <option value="VA">VA</option>
+                    <option value="WA">WA</option>
+                    <option value="WV">WV</option>
+                    <option value="WI">WI</option>
+                    <option value="WY">WY</option>
                     </select>
-                  </div>
-                </div>
+              </div>
+            </div>
 
-              <button type="submit" class="btn btn-theme">Continue</button>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="phNo">Phone Number (mobile preffered)</label>
+                  <input type="tel" class="form-control" name="phNo" placeholder="xxx-xxx-xxxx">
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="aboutUs">How did you hear about us?</label>
+                  <select class="form-control" name="aboutUs">
+                    <option value=""></option>
+                    <option value="Article / Blog Post">Article / Blog Post</option>
+                    <option value="Social Media">Social Media</option>
+                    <option value="Mail">Mail</option>
+                    <option value="Friend">Friend</option>
+                    <option value="Radio">Radio</option>
+                    <option value="Podcast">Podcast</option>
+                    <option value="TV">TV</option>
+                    <option value="Mint">Mint</option>
+                    <option value="Online Advertising">Online Advertising</option>
+                    <option value="uber">uber</option>
+                    <option value="Inflight Entertainment">Inflight Entertainment</option>
+                    <option value="Other">Other</option>
+                  </select>
+                </div>
+              </div>
+
+            <button type="submit" class="btn btn-theme">Continue</button>
           </form>
 
         </div>
