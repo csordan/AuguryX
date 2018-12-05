@@ -1,4 +1,4 @@
-<!DOCTYPE html>
++<!DOCTYPE html>
 <html lang="zxx">
   <head>
     <meta charset="utf-8" />
@@ -65,79 +65,79 @@
   <header>
       <nav class="navbar header-nav header-nav-style-2 navbar-expand-lg">
         <div class="container container-large">
-      
-          <a class="navbar-brand" href="index.html">
+
+          <a class="navbar-brand" href="#">
               <img class="dark-logo" src="static/img/logo.png" title="" alt="">
               <img class="light-logo" src="static/img/logo.png" title="" alt="">
           </a>
-         
+
         </div>
-         
-      </nav> 
+
+      </nav>
     </header>
-  <main>
-    
+    <main>
+
     <!-- Home -->
     <section id="home" class="home-banner-03 gray-bg">
       <div class="home-effect-bg"><img src="static/img/home-banner-3.svg" title="" alt=""></div>
-   
+
 
       <div class="container">
         <div class="row full-screen p-80px-tb sm-p-30px-b">
-          <form class="col">
+          <form action="scripts/signup.s.php" method="post" class="col" >
             <div class="form-row">
               <div class="form-group col-md-4">
                 <label for="firstName">First Name</label>
-                <input type="text" class="form-control" id="firstName" placeholder="Enter your First Name">
+                <input type="text" class="form-control" name="firstName" placeholder="Enter your First Name">
               </div>
               <div class="form-group col-md-4">
                 <label for="lastName">MI</label>
-                <input type="text" class="form-control" id="midName" placeholder="Enter your Mid Name">
+                <input type="text" class="form-control" name="midName" placeholder="Enter your Mid Name">
               </div>
               <div class="form-group col-md-4">
                 <label for="lastName">Last Name</label>
-                <input type="text" class="form-control" id="lastName" placeholder="Enter your Last name">
+                <input type="text" class="form-control" name="lastName" placeholder="Enter your Last name">
               </div>
             </div>
 
             <div class="form-row">
               <div class="form-group col-md-4">
                 <label for="firstName">Email</label>
-                <input type="email" class="form-control" id="email" placeholder="Enter your Email">
+                <input type="email" class="form-control" name="email" placeholder="Enter your Email">
               </div>
               <div class="form-group col-md-4">
                 <label for="password">Password</label>
-                <input type="password" class="form-control" id="password" placeholder="Enter your Password">
+                <input type="password" class="form-control" name="password" placeholder="Enter your Password">
               </div>
               <div class="form-group col-md-4">
                 <label for="confirmPassword">Confirm Password</label>
-                <input type="password" class="form-control" id="confirmPassword" placeholder="Confirm Password">
+                <input type="password" class="form-control" name="confirmPassword" placeholder="Confirm Password">
               </div>
             </div>
 
             <div class="form-row">
               <div class="form-group col-md-6">
                 <label for="address1">Address Line 1</label>
-                <input type="text" class="form-control" id="address1" placeholder="Enter your Address line 1">
+                <input type="text" class="form-control" name="address1" placeholder="Enter your Address line 1">
               </div>
               <div class="form-group col-md-6">
                 <label for="address2">Address Line 2</label>
-                <input type="text" class="form-control" id="address2" placeholder="Enter your Address line 2">
+                <input type="text" class="form-control" name="address2" placeholder="Enter your Address line 2">
               </div>
             </div>
 
             <div class="form-row">
               <div class="form-group col-md-4">
                 <label for="firstName">City</label>
-                <input type="text" class="form-control" id="text" placeholder="Enter your City">
+                <input type="text" class="form-control" name="city" placeholder="Enter your City">
               </div>
               <div class="form-group col-md-4">
-                <label for="zipcode">Zipcode</label>
-                <input type="text" class="form-control" id="text" placeholder="Enter your Zipcode">
+                <label for="state">ZIPcode</label>
+                <input type="text" class="form-control" name="zip" placeholder="Enter your ZIPcode">
               </div>
               <div class="form-group col-md-4">
-                <label for="ZIPcode">State</label>
-                <select class="form-control" id="STATEcode">
+                <label for="State">State</label>
+                <select class="form-control" name="state" placeholder="Select a STATEcode">
                     <option value=""></option>
                     <option value="AA">AA</option>
                     <option value="AE">AE</option>
@@ -201,11 +201,11 @@
             <div class="form-row">
                 <div class="form-group col-md-6">
                   <label for="phNo">Phone Number (mobile preffered)</label>
-                  <input type="tel" class="form-control" id="phNo" placeholder="xxx-xxx-xxxx">
+                  <input type="tel" class="form-control" name="phNo" placeholder="xxx-xxx-xxxx">
                 </div>
                 <div class="form-group col-md-6">
                   <label for="aboutUs">How did you hear about us?</label>
-                  <select class="form-control" id="aboutUs">
+                  <select class="form-control" name="aboutUs">
                     <option value=""></option>
                     <option value="Article / Blog Post">Article / Blog Post</option>
                     <option value="Social Media">Social Media</option>
@@ -223,18 +223,18 @@
                 </div>
               </div>
 
-            <button type="submit" class="btn btn-theme">Continue</button>
+            <button type="submit" class="btn btn-theme" name="continue">Continue</button>
           </form>
 
-        </div> 
+        </div>
       </div>
     </section>
-      
+
 
   </main>
   <!-- / -->
 
-  
+
 
   <!-- Jquery -->
   <script src="static/js/jquery-3.2.1.min.js"></script>
