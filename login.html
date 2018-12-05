@@ -72,15 +72,15 @@
           <img src="static/img/logo.png">
       </div>
 
-      <form class="col-12" style="display: inline-block !important; text-align: center !important">
+      <form action = "scripts/login.s.php" class="col-12" style="display: inline-block !important; text-align: center !important" method = "post">
           <div class= "form-group" style="display: inline-block !important; text-align: center !important">
-              <input type="text" class= "form-control" placeholder = "Enter Username">
+              <input type="text" class= "form-control" name = "email" placeholder = "Enter Email">
           </div>
           <div class= "form-group">
-              <input type="password" class= "form-control" placeholder = "Enter Password">
+              <input type="password" class= "form-control" name = "pwd" placeholder = "Enter Password">
           </div>
-      <button type ="submit" class= "btn"><i class="fas fa-sign-in-alt"></i>Login</button>
-  </form>
+          <button type ="submit" name = "login" class= "btn"><i class="fas fa-sign-in-alt"></i>Login</button>
+      </form>
 
 </div>
 
