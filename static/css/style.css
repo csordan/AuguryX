@@ -265,6 +265,16 @@ img {
   color: #323232
 }
 
+.btn-dark {
+  border: 1px solid #fff;
+  color:#fff;
+  background: #bc2f2f;
+}
+.btn-dark:hover {
+  background: #bc2f2f;
+  color: #fff
+}
+
 .btn-theme {
   color: #fff
 }
