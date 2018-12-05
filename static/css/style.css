@@ -29,6 +29,7 @@ Table of contents
 ----------------------------------*/
 @import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
 
+
 #loading {
   position: fixed;
   top: 0;
@@ -45,17 +46,17 @@ Table of contents
   left: 0;
   right: 0;
   margin: auto;
-  animation: rotate 1s infinite;  
+  animation: rotate 1s infinite;
   height: 50px;
   width: 50px;
 }
 
 .load-circle:before,
-.load-circle:after {   
+.load-circle:after {
   border-radius: 50%;
   content: '';
   display: block;
-  height: 20px;  
+  height: 20px;
   width: 20px;
 }
 .load-circle:before {
@@ -71,16 +72,16 @@ Table of contents
 }
 
 @keyframes rotate {
-  0% { 
-    -webkit-transform: rotate(0deg) scale(0.8); 
+  0% {
+    -webkit-transform: rotate(0deg) scale(0.8);
     -moz-transform: rotate(0deg) scale(0.8);
   }
-  50% { 
-    -webkit-transform: rotate(360deg) scale(1.2); 
+  50% {
+    -webkit-transform: rotate(360deg) scale(1.2);
     -moz-transform: rotate(360deg) scale(1.2);
   }
-  100% { 
-    -webkit-transform: rotate(720deg) scale(0.8); 
+  100% {
+    -webkit-transform: rotate(720deg) scale(0.8);
     -moz-transform: rotate(720deg) scale(0.8);
   }
 }
@@ -153,13 +154,13 @@ img {
 @media (max-width: 991px){
  .section {
     padding: 60px 0;
-  } 
+  }
 }
 
 @media (max-width: 767px){
  .section {
     padding: 40px 0;
-  } 
+  }
 }
 
 .white-text {
@@ -169,7 +170,7 @@ img {
 
 .effect-bg {
   background: url(../img/home-about-texture.svg) no-repeat right center;
-} 
+}
 
 .gray-bg {
   background: #f7f7fc;
@@ -180,23 +181,23 @@ img {
 }
 
 .yellow-bg {
-  background:#ffbc5c; 
+  background:#ffbc5c;
 }
 
 .green-bg {
-  background:#1edee4; 
+  background:#1edee4;
 }
 
 .blue-bg {
-  background:#255cff; 
+  background:#255cff;
 }
 
 .pink-bg {
-  background:#ff2560; 
+  background:#ff2560;
 }
 
 .red-bg {
-  background:#ff2525; 
+  background:#ff2525;
 }
 
 .effect-section {
@@ -286,7 +287,7 @@ img {
 }
 
 .border-radius-02 {
-  border-radius: 90% / 40%; 
+  border-radius: 90% / 40%;
 }
 
 .icon-s {
@@ -324,7 +325,7 @@ img {
   height: 100px;
   display: inline-block;
   line-height: 100px;
-  text-align: center; 
+  text-align: center;
   color: #fff;
   font-size: 40px;
 }
@@ -383,7 +384,7 @@ img {
     margin: 0 0 15px;
   }
   .section-title h2 {
-    font-size:27px; 
+    font-size:27px;
   }
   .section-title h2 br {
     display: none;
@@ -424,17 +425,17 @@ img {
 h3,
 h4,
 h5,
-.blog-item h4 a, 
-.price-table .pt-body li, 
-.price-table .pt-head h4, 
-.portfolio-hover .portfolio-info h6, 
-.filter-01 li, 
-.counter-col, 
-.feature-box-01 h4, 
-.feature-box h4, 
+.blog-item h4 a,
+.price-table .pt-body li,
+.price-table .pt-head h4,
+.portfolio-hover .portfolio-info h6,
+.filter-01 li,
+.counter-col,
+.feature-box-01 h4,
+.feature-box h4,
 .section-title h2,
-.our-team .team-info h6, 
-.side-title h2, 
+.our-team .team-info h6,
+.side-title h2,
 .contact-info h6,
 .feature-box-02 h2,
 .list-style-02 li label {
@@ -815,7 +816,7 @@ h5,
     top: 0;
     left: 100%;
   }
-  
+
 } /*@media*/
 
 @media (max-width: 991px){
@@ -856,7 +857,7 @@ h5,
     border-top: 1px solid rgba(255, 255, 255, 0.07);
   }
   .m-dropdown-multilevel .m-dropdown-menu li.hover-trigger:last-child {
-   margin-bottom: 0; 
+   margin-bottom: 0;
   }
 
   .m-dropdown-multilevel .m-dropdown-menu li a .arrow {
@@ -864,7 +865,7 @@ h5,
   }
   .m-dropdown-multilevel .m-dropdown-menu li li {
     padding-left: 0;
-    padding-right: 0; 
+    padding-right: 0;
   }
   .m-dropdown-multilevel .m-dropdown-menu ul {
     padding: 0;
@@ -885,12 +886,12 @@ h5,
     margin-bottom: 15px;
   }
   .mm-column:last-child {
-   margin-bottom: 0; 
+   margin-bottom: 0;
   }
   .mm-column li {
     border-bottom: 1px solid rgba(255, 255, 255, 0.07);
   }
-  
+
 }/*@media*/
 
 
@@ -1574,7 +1575,7 @@ h5,
   padding: 0;
   position: absolute;
   top: 0;
-  left: 0; 
+  left: 0;
   width: 35px;
   z-index: 2;
   opacity: 0;
@@ -1833,7 +1834,7 @@ h5,
   padding: 0;
   width: 60px;
   height: 60px;
-  line-height: 60px;  
+  line-height: 60px;
   font-size: 18px;
 }
 .portfolio-hover-01:hover .icons {
@@ -2176,7 +2177,7 @@ h5,
 }
 
 /*-----------------------------------------
-*  Blog 
+*  Blog
 -----------------------------------------*/
 
 .blog-item {
@@ -2764,7 +2765,7 @@ blockquote.blockquote-left .parson {
   height: 135px;
 }
 .form-group textarea.form-control.form-xl {
-  height: 170px; 
+  height: 170px;
 }
 
 .form-group .input-focus-effect {
@@ -3044,7 +3045,7 @@ blockquote.blockquote-left .parson {
 }
 .footer-section .fot-link a:hover:after {
   width: 100%;
-} 
+}
 
 .footer-section .footer-text {
   width: 310px;
@@ -3110,7 +3111,7 @@ blockquote.blockquote-left .parson {
 .u-rounded {
   border-radius: 100rem;
   margin: auto;
-  
+
 }
 .u-figure-size--128 {
   width: 12.8rem;
