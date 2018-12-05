@@ -19,7 +19,7 @@
       Copyright (c) 2018 - Softgear
       ========================================================================
     -->
-    <title>Augury</title>
+    <title>AuguryX</title>
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
 
@@ -94,8 +94,6 @@
             <ul class="navbar-nav ml-auto align-items-center">
               <li><a class="nav-link" href="index.html#home">Home</a></li>
               <li><a class="nav-link" href="index.html#about">About</a></li>
-              <li><a class="nav-link" href="index.html#feature">Feature</a></li>
-              <li><a class="nav-link" href="index.html#price">Price</a></li>
               <li><a class="nav-link" href="index.html/#blog">Blog</a></li>
               <li>
                 <a class="nav-link" href="index.html#contatus">Contact</a>
@@ -149,7 +147,7 @@
                     "width": 300,
                     "height": 300,
                     "symbol": "NASDAQ:AAPL",
-                    "locale": "uk",
+                    "locale": "us",
                     "interval": "1D"
                   }
                 </script>
@@ -167,7 +165,7 @@
                 "width": 300,
                 "height": 300,
                 "symbol": "NASDAQ:TSLA",
-                "locale": "uk",
+                "locale": "us",
                 "interval": "1D"
               }
                 </script>
@@ -185,7 +183,7 @@
                 "width": 300,
                 "height": 300,
                 "symbol": "NASDAQ:ATHN",
-                "locale": "uk",
+                "locale": "us",
                 "interval": "1D"
               }
                 </script>
@@ -201,16 +199,17 @@
 
 
 
-      <div class="row justify-content-center m-45px-b md-m-25px-b">
-          <div class="col-md-10 col-lg-8 col-xl-7">
-            <div class="section-title text-center">
+      <section class="section effect-bg" >
+        <div class="container">
+          <div class="row">
+            <div style="padding-right: 5%">
                 <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-market-overview.js" async>
 
                   {
                   position:relative;
-                  
+
                   "showChart": true,
-                  "locale": "uk",
+                  "locale": "us",
                   "largeChartUrl": "",
                   "width": "0",
                   "height": "0",
@@ -339,120 +338,51 @@
                   ]
                 }
                   </script>
-            </div>
-          </div> <!-- col -->
-        </div>
+                </div>
+
+
+
+
+                  <!-- TradingView Widget BEGIN -->
+                  <div class="tradingview-widget-container">
+                    <div class="tradingview-widget-container__widget"></div>
+                    <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/markets/stocks-usa/market-movers-gainers/" rel="noopener" target="_blank">
+                    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-hotlists.js" async>
+                    {
+                    "exchange": "US",
+                    "showChart": true,
+                    "locale": "us",
+                    "largeChartUrl": "",
+                    "width": "650",
+                    "height": "600",
+                    "plotLineColorGrowing": "rgba(60, 188, 152, 1)",
+                    "plotLineColorFalling": "rgba(255, 74, 104, 1)",
+                    "gridLineColor": "rgba(242, 243, 245, 1)",
+                    "scaleFontColor": "rgba(214, 216, 224, 1)",
+                    "belowLineFillColorGrowing": "rgba(60, 188, 152, 0.05)",
+                    "belowLineFillColorFalling": "rgba(255, 74, 104, 0.05)",
+                    "symbolActiveColor": "rgba(242, 250, 254, 1)"
+                  }
+                    </script>
+                  </div>
+                  <!-- TradingView Widget END -->
+                </div>
 
 
 
 
 
 
-
-
-      <section class="section effect-bg" style="padding:unset !important;">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-6 col-md-6 m-15px-tb">
-              <div class="feature-box">
-                <iframe
-                  src="https://s.tradingview.com/dailyfx/widgetembed/?frameElementId=tradingview_0e6f5&symbol=FX_IDC%3AEURUSD&interval=D&hidesidetoolbar=0&symboledit=1&saveimage=1&toolbarbg=f4f7f9&studies=%5B%5D&hideideas=1&theme=White&timezone=exchange&showpopupbutton=1&studies_overrides=%7B%7D&overrides=%7B%7D&enabled_features=%5B%5D&disabled_features=%5B%5D&showpopupbutton=1&locale=en&utm_source=www.dailyfx.com&utm_medium=widget&utm_campaign=chart&utm_term=FX_IDC%3AEURUSD"
-                  width="500"
-                  height="250"
-                ></iframe>
-
-                <a class="btn btn-theme-2nd" href="fx.html">Read More</a>
+                </div>
               </div>
-              <!-- feature -->
-            </div>
-            <div class="col-lg-6 col-md-6 m-15px-tb">
-              <div class="feature-box">
-                <iframe
-                  src="https://s.tradingview.com/dailyfx/widgetembed/?frameElementId=tradingview_490c2&symbol=FX_IDC%3AUSDJPY&interval=D&hidesidetoolbar=0&symboledit=1&saveimage=1&toolbarbg=f4f7f9&studies=%5B%5D&hideideas=1&theme=White&timezone=exchange&showpopupbutton=1&studies_overrides=%7B%7D&overrides=%7B%7D&enabled_features=%5B%5D&disabled_features=%5B%5D&showpopupbutton=1&locale=en&utm_source=www.dailyfx.com&utm_medium=widget&utm_campaign=chart&utm_term=FX_IDC%3AUSDJPY"
-                  width="500"
-                  height="250"
-                ></iframe>
+            </section>
 
-                <a class="btn btn-theme-2nd" href="fx.html">Read More</a>
-              </div>
-              <!-- feature -->
-            </div>
-            <div class="col-lg-6 col-md-6 m-15px-tb">
-              <div class="feature-box">
-                <iframe
-                  src="https://s.tradingview.com/dailyfx/widgetembed/?frameElementId=tradingview_a56bb&symbol=FX_IDC%3AGBPUSD&interval=D&hidesidetoolbar=0&symboledit=1&saveimage=1&toolbarbg=f4f7f9&studies=%5B%5D&hideideas=1&theme=White&timezone=exchange&showpopupbutton=1&studies_overrides=%7B%7D&overrides=%7B%7D&enabled_features=%5B%5D&disabled_features=%5B%5D&showpopupbutton=1&locale=en&utm_source=www.dailyfx.com&utm_medium=widget&utm_campaign=chart&utm_term=FX_IDC%3AGBPUSD"
-                  width="500"
-                  height="250"
-                ></iframe>
 
-                <a class="btn btn-theme-2nd" href="fx.html">Read More</a>
-              </div>
-              <!-- feature -->
-            </div>
-            <div class="col-lg-6 col-md-6 m-15px-tb">
-              <div class="feature-box">
-                <iframe
-                  src="https://s.tradingview.com/dailyfx/widgetembed/?frameElementId=tradingview_9d1ad&symbol=FX_IDC%3AUSDCAD&interval=D&hidesidetoolbar=0&symboledit=1&saveimage=1&toolbarbg=f4f7f9&studies=%5B%5D&hideideas=1&theme=White&timezone=exchange&showpopupbutton=1&studies_overrides=%7B%7D&overrides=%7B%7D&enabled_features=%5B%5D&disabled_features=%5B%5D&showpopupbutton=1&locale=en&utm_source=www.dailyfx.com&utm_medium=widget&utm_campaign=chart&utm_term=FX_IDC%3AUSDCAD"
-                  width="500"
-                  height="250"
-                ></iframe>
 
-                <a class="btn btn-theme-2nd" href="fx.html">Read More</a>
-              </div>
-              <!-- feature -->
-            </div>
-            <div class="col-lg-6 col-md-6 m-15px-tb">
-              <div class="feature-box">
-                <iframe
-                  src="https://s.tradingview.com/dailyfx/widgetembed/?frameElementId=tradingview_de027&symbol=FX_IDC%3AAUDUSD&interval=D&hidesidetoolbar=0&symboledit=1&saveimage=1&toolbarbg=f4f7f9&studies=%5B%5D&hideideas=1&theme=White&timezone=exchange&showpopupbutton=1&studies_overrides=%7B%7D&overrides=%7B%7D&enabled_features=%5B%5D&disabled_features=%5B%5D&showpopupbutton=1&locale=en&utm_source=www.dailyfx.com&utm_medium=widget&utm_campaign=chart&utm_term=FX_IDC%3AAUDUSD"
-                  width="500"
-                  height="250"
-                ></iframe>
 
-                <a class="btn btn-theme-2nd" href="fx.html">Read More</a>
-              </div>
-              <!-- feature -->
-            </div>
-            <div class="col-lg-6 col-md-6 m-15px-tb">
-              <div class="feature-box">
-                <iframe
-                  src="https://s.tradingview.com/dailyfx/widgetembed/?frameElementId=tradingview_b7f30&symbol=FX_IDC%3AEURJPY&interval=D&hidesidetoolbar=0&symboledit=1&saveimage=1&toolbarbg=f4f7f9&studies=%5B%5D&hideideas=1&theme=White&timezone=exchange&showpopupbutton=1&studies_overrides=%7B%7D&overrides=%7B%7D&enabled_features=%5B%5D&disabled_features=%5B%5D&showpopupbutton=1&locale=en&utm_source=www.dailyfx.com&utm_medium=widget&utm_campaign=chart&utm_term=FX_IDC%3AEURJPY"
-                  width="500"
-                  height="250"
-                ></iframe>
 
-                <a class="btn btn-theme-2nd" href="fx.html">Read More</a>
-              </div>
-              <!-- feature -->
-            </div>
-            <div class="col-lg-6 col-md-6 m-15px-tb">
-              <div class="feature-box">
-                <iframe
-                  src="https://s.tradingview.com/dailyfx/widgetembed/?frameElementId=tradingview_27867&symbol=FX_IDC%3AEURGBP&interval=D&hidesidetoolbar=0&symboledit=1&saveimage=1&toolbarbg=f4f7f9&studies=%5B%5D&hideideas=1&theme=White&timezone=exchange&showpopupbutton=1&studies_overrides=%7B%7D&overrides=%7B%7D&enabled_features=%5B%5D&disabled_features=%5B%5D&showpopupbutton=1&locale=en&utm_source=www.dailyfx.com&utm_medium=widget&utm_campaign=chart&utm_term=FX_IDC%3AEURGBP"
-                  width="500"
-                  height="250"
-                ></iframe>
 
-                <a class="btn btn-theme-2nd" href="fx.html">Read More</a>
-              </div>
-              <!-- feature -->
-            </div>
-            <div class="col-lg-6 col-md-6 m-15px-tb">
-              <div class="feature-box">
-                <iframe
-                  src="https://s.tradingview.com/dailyfx/widgetembed/?frameElementId=tradingview_dfd61&symbol=FX_IDC%3AGBPCAD&interval=D&hidesidetoolbar=0&symboledit=1&saveimage=1&toolbarbg=f4f7f9&studies=%5B%5D&hideideas=1&theme=White&timezone=exchange&showpopupbutton=1&studies_overrides=%7B%7D&overrides=%7B%7D&enabled_features=%5B%5D&disabled_features=%5B%5D&showpopupbutton=1&locale=en&utm_source=www.dailyfx.com&utm_medium=widget&utm_campaign=chart&utm_term=FX_IDC%3AGBPCAD"
-                  width="500"
-                  height="250"
-                ></iframe>
 
-                <a class="btn btn-theme-2nd" href="fx.html">Read More</a>
-              </div>
-              <!-- feature -->
-            </div>
-          </div>
-          <!-- row -->
-        </div>
-      </section>
     </main>
     <!-- / -->
 
@@ -464,8 +394,7 @@
             <div class="col-md-12 col-lg-4 sm-m-15px-tb md-m-30px-b">
               <h4 class="font-alt">About Us</h4>
               <p class="footer-text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              A modular trading application to help you make more money. We gather data from the OANDA api to show you market data and to guide you on data driven trading decisions
               </p>
               <ul class="social-icons">
                 <li>
@@ -494,8 +423,6 @@
               <h4 class="font-alt">Product</h4>
               <ul class="fot-link">
                 <li><a href="#">Features</a></li>
-                <li><a href="#">Carrers</a></li>
-                <li><a href="#">Awards</a></li>
                 <li><a href="#">Users Program</a></li>
                 <li><a href="#">Locations</a></li>
               </ul>
@@ -507,7 +434,6 @@
               <ul class="fot-link">
                 <li><a href="#">About</a></li>
                 <li><a href="#">Blog</a></li>
-                <li><a href="#">Press</a></li>
                 <li><a href="#">Policy</a></li>
                 <li><a href="#">Contact</a></li>
               </ul>
@@ -515,7 +441,7 @@
 
             <div class="col-md-4 col-lg-4 sm-m-15px-tb">
               <h4 class="font-alt">Subscribe</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <p>LSubscribe to our email list for general news and updates</p>
               <div class="subscribe-box m-20px-t">
                 <input
                   placeholder="Enter Email Id"
@@ -535,8 +461,7 @@
             <div class="row">
               <div class="col-12">
                 <p>
-                  2018 Augury. All Rights Reserved developed by
-                  <a href="https://softgear.net/">Softgear</a>
+                  2018 AuguryX. All Rights Reserved developed by AuguryX
                 </p>
               </div>
               <!-- col -->
