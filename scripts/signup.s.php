@@ -28,11 +28,11 @@ if(isset($_POST['continue'])){
   }
   // We check if the repeated password is NOT the same.
   else if ($password !== $passwordRepeat) {
-<<<<<<< HEAD
+
     header("Location: ../signup.html?error=passwordcheck&email=".$email);
-=======
+
     header("Location: ../signup.html?error=passwordcheck&uid=".$username."&mail=".$email);
->>>>>>> database
+
     exit();
   }
   else {
