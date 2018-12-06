@@ -69,7 +69,7 @@ if (isset($_POST['login'])) {
 
 
           // Now the user is registered as logged in and we can now take them back to the front page! :)
-          header("Location: ../index.html?login=success");
+          header("Location: ../welcome.html?login=success");
           exit();
         //}
       }
